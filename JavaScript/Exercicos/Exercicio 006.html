@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+
+    <style>
+        #res{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simulador de multa</h1> 
+     velocidade do carro: <input type="number" name="txtn1" id="txtn1"> KM/h
+    <input type="button" value="Verificar" onclick="clicar()">
+    <div id= 'res'>Resultado</div>
+    <script>
+        function clicar(){
+            valor = document.getElementById('txtn1')
+            velocidade = Number(txtn1.value) 
+            resultado = document.getElementById('res')
+            if (velocidade>60){
+                resultado.innerText = 'Você foi multado'
+
+            }
+            else{
+                resultado.innerText = 'Você não foi multado'
+        }   }
+    </script>
+</body>
+</html>

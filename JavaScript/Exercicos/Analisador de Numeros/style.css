@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #04a6ba;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+header{
+    font: normal 15pt Arial;
+    text-align: center;
+}
+section{
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    flex: 1;
+    background-color: #fff;
+}
+div{
+    color: black;
+    padding: 8px;
+}
+footer{
+    font: italic 15px Arial;
+    text-align: center;
+    
+}
