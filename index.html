@@ -2,44 +2,68 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos do Jyan</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f3f3f3;
-      text-align: center;
-      padding: 0;
       margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
+    h1 {
+      color: #333;
+      font-size: 2em;
+      margin-bottom: 30px;
+      text-align: center;
     }
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 1.4em;
-      }
-      a {
-        font-size: 1em;
-        padding: 8px;
-      }
-    }
+
     ul {
       list-style: none;
       padding: 0;
-      margin: 0 auto;
+      margin: 0;
+      width: 100%;
       max-width: 500px;
-      
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
     }
+
     li {
-      margin: 15px 0;
-      
+      width: 100%;
     }
+
     a {
-      text-decoration: none;
-      color: #0077cc;
+      display: block;
+      width: 100%;
+      padding: 15px;
       font-size: 1.2em;
-      
+      color: #0077cc;
+      text-decoration: none;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: background-color 0.3s;
     }
+
     a:hover {
-      color: #005599;
+      background-color: #e6f0ff;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5em;
+      }
+
+      a {
+        font-size: 1em;
+        padding: 12px;
+      }
     }
   </style>
 </head>
@@ -47,8 +71,8 @@
   <h1>🌐 Meus Projetos com HTML, CSS e JavaScript</h1>
   <ul>
     <li><a href="Analisador de Numeros/index.html">Analisador de Números</a></li>
-    <li><a href="Hora-do-Dia/index.html">Hora do Dia</a></li>
-    <li><a href="PA/index.html">PA (Progressão Aritmética)</a></li>
+    <li><a href="hora-do-Dia/index.html">Hora do Dia</a></li>
+    <li><a href="PA/index.html">PA</a></li>
     <li><a href="Primeiro Site/index.html">Primeiro Site</a></li>
     <li><a href="Tabuada/index.html">Tabuada</a></li>
     <li><a href="Verificador de idade/index.html">Verificador de Idade</a></li>
