@@ -2,14 +2,18 @@ body{
     background: #04a6ba;
     font: normal 15pt Arial;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 header{
     text-align: center;
     color: white;
+    padding: 20px 0px;
 }
 section{
     
     max-width: 500px ; 
+    width: 90%;
     padding: 15px;
     border-radius: 10px;
     margin: auto;
@@ -34,4 +38,5 @@ footer{
     overflow-wrap: unset;
     flex-wrap: nowrap;
     white-space: nowrap;
+    padding: 20px 0px;
 }

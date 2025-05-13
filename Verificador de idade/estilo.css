@@ -8,6 +8,7 @@ body{
 header{
     color: white;
     text-align: center;
+    padding: 20px 0px
 }
 div{
     color: black;
@@ -24,4 +25,5 @@ section{
 footer{
     font: italic;
     text-align: center;
+    padding: 20px 0px;
 }
