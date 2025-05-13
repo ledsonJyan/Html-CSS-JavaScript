@@ -11,12 +11,14 @@ body{
 header{
     font: normal 15pt Arial;
     text-align: center;
+    padding: 20px 0px;
 }
 section{
     border-radius: 10px;
     margin: auto;
     padding: 15px;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     flex: 1;
     background-color: #fff;
 }
@@ -27,5 +29,5 @@ div{
 footer{
     font: italic 15px Arial;
     text-align: center;
-    
+    padding: 20px 0px;
 }
