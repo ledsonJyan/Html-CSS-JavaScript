@@ -1,10 +1,13 @@
 body{
     background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
+    margin: 0;
+    padding: 0;
 }
 header{
     color: white;
     text-align: center;
+    padding: 20px 0px;
 }
 div{
     text-align: center;
@@ -14,7 +17,8 @@ section{
     background-color: white ;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.452);
 }
@@ -22,4 +26,5 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 20px 0px;
 }
