@@ -27,6 +27,14 @@ div{
     color: black;
     font: normal 15pt arial;
 }
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
 footer{
     text-align: center;
     color: white ;
