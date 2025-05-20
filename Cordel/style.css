@@ -72,6 +72,7 @@ section > p{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 #img02{
     background-image: url(imagens/background002.jpg);
