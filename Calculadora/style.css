@@ -12,6 +12,8 @@ body{
     padding-top: 30px;
     height: 100vh;
     justify-content: center;
+    background-color: #f0f4f8;
+    
    
 }
 #corpo{
@@ -36,7 +38,7 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 5px;
-   
+    background-color: #f8f9fa;
 }
 .btn{
     
@@ -45,9 +47,11 @@ h1{
     border: none;
     border-radius: 5px;
     font-size: 18px;
+    background-color: #dfe6ed;
+    color: #000000;
 }
 .btn:hover{
-    background-color: darkgray;
+    background-color: #cbd9e5;
 }
 .botoes{
     width: 100%;
@@ -57,10 +61,21 @@ h1{
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     
+    
+}
+.operador{
+    background-color: #a3c4dc;
+}
+#igual{
+    background-color: #5c91bc;
+}
+#igual:hover{
+    background-color: #cbd9e5;
 }
 #visor{
     margin-top: 35px;
     padding: 10px;
+    
     
    
 }
@@ -72,6 +87,8 @@ h1{
     border: 1px solid black;
     border-radius: 5px;
     padding-right: 10px;
+    background-color: #e6ecf0;
+    color: #333333;
     
 }
 a{
