@@ -44,5 +44,20 @@
 <footer>Criado por <a href="https://www.instagram.com/jyancastrojl/" target="_blank"><strong>Lêdson Jyan</strong></a></footer>
 
 <script src="script.js"></script>
+<script>
+    document.body.addEventListener("keyup", (event) => {
+        let value = event.key;
+        if ((value <= 9 && value >= 0) || ["+", "*", "/", "-"].includes(value.toString())){
+            insert(value);
+        } else if (value.toString().toLowerCase() == "enter") {
+            calcular();
+        } else if (value.toString().toLowerCase() == "backspace") {
+            backspace();
+        } else if (value.toString().toLowerCase() == "delete") {
+            insert("C");
+        }
+        console.log(value);
+    })
+</script>
 </body>
 </html>
