@@ -30,7 +30,7 @@ h1{
 #base{
     width: 90%;
     max-width: 280px;
-    min-width: 240px;
+    min-width: 255px;
     height: auto;
     border: 1px solid black;
     margin: auto;
