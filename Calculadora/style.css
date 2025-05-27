@@ -66,11 +66,17 @@ h1{
 .operador{
     background-color: #a3c4dc;
 }
-#igual{
+#igual {
+    grid-row: span 2;
     background-color: #5c91bc;
+    height: 100%; 
+    
 }
 #igual:hover{
     background-color: #cbd9e5;
+}
+#zero {
+    grid-column: span 2;
 }
 #visor{
     margin-top: 35px;
@@ -90,6 +96,8 @@ h1{
     padding-right: 10px;
     background-color: #e6ecf0;
     color: #333333;
+    overflow: hidden;
+    overflow-x: scroll;
     
 }
 a{

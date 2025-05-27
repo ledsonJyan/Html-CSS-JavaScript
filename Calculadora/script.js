@@ -1,20 +1,23 @@
 let numero = ''
 let operador = ''
 function insert(num){
-    if(numero==''){
-        numero = num
-        document.getElementById('tela').innerHTML = numero 
-
-    }else if(num=='C'){
+    if(num=='C'){
         numero = ''
-        document.getElementById('tela').innerHTML = numero 
-    }else if(numero==''){
-        numero+=numero
-        document.getElementById('tela').innerHTML = numero 
+    }else{
+        numero += num
     }
-    else{
-        numero = numero + num
-        document.getElementById('tela').innerHTML = numero 
+    document.getElementById('tela').innerHTML = numero 
+}
+function backspace(){
+    let back_space = document.getElementById('tela').innerHTML;
+    back_space = back_space.substring(0, back_space.length - 1);
+    document.getElementById('tela').innerHTML = back_space;
+    numero = back_space;
+}
+function calcular(){
+    let calculo =  document.getElementById('tela').innerHTML;
+    if(calculo){
+        let resultado = document.getElementById('tela').innerHTML = eval(calculo)
+        numero = resultado
     }
-    console.log(numero)
 }
