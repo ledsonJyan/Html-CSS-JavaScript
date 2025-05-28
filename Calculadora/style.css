@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     background-color: #f0f4f8;
     
@@ -97,7 +97,7 @@ h1{
     background-color: #e6ecf0;
     color: #333333;
     overflow: hidden;
-    overflow-x: scroll;
+    overflow-x: auto;
     
 }
 a{
@@ -109,7 +109,7 @@ a:hover{
     text-decoration: underline;
 }
 footer{
-    margin-top: 80px;
+    margin-top: auto;
 }
 
 
