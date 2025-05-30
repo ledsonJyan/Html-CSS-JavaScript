@@ -1,3 +1,7 @@
+let hora = document.getElementById('hora');
+let minuto = document.getElementById('minuto');
+let segundo = document.getElementById('segundo');
+
 let relogio = setInterval(function time(){
     let date_today = new Date();
     let h = date_today.getHours();
