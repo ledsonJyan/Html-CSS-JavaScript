@@ -12,27 +12,31 @@
     <div id="corpo">
        <div id="base">
             
-            <table id="tabela">
-                <tr>
-                    <td id="hora">
-                        <div class="tempo">
-                            <p class="num">00:00</p> 
-                        </div>
-                    </td>
-                    <td id="minuto">
-                        <div class="tempo">
-                            <p class="num">00:00</p>
-                        </div>
-                    </td>
-                    <td id="segundo">
-                        <div class="tempo">
-                            <p class="num">00:00</p>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+            <div id='tempo'>
+                <div id="horas">
+                    <p class="num" id='hora'>00:00</p>
+                </div>
+                
+                <div id="minutos">
+                    <p class="num" id='minuto'>00:00</p>
+                </div>
+                
+                <div id="segundos">
+                    <p class="num" id='segundo'>00:00</p>
+                </div>
+            </div>
+            
+            <div id='opçoes'>
+                <button class='botoes'>Reiniciar</button>
+                <button class='botoes'>Parar</button>
+                <button class='botoes'>Começar</button>
+            </div>       
+                
+            
         </div>
     </div>
+    
     <footer><p>Criado por <a href="https://www.instagram.com/jyancastrojl/" target="_blank"><strong>Lêdson Jyan</strong></a></p></footer>
+    <script src="script.js"></script>
 </body>
 </html>
