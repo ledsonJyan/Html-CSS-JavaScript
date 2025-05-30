@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #a0d8ef, #e0f7fa);
+}
+#corpo{
+    display: flex;
+    justify-content: center ;
+    margin-top: 20vh;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;   
+    color: #1565c0;
+}
+#base{
+    width: 90vw;
+    max-width:600px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e1f5fe;
+    
+}
+#tempo{
+    width: 90vw;
+    max-width: 400px;
+    height: 100px;
+    display: flex;      
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    justify-content: center;
+    padding-right: 20px;
+}
+#horas{
+    width: 28%;     
+    min-width: 80px;
+    margin: 0 5px;  
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #81d4fa, #b3e5fc);
+}
+#minutos{
+    width: 28%;     
+    min-width: 80px;
+    margin: 0 5px;  
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #81d4fa, #b3e5fc);
+}
+#segundos{
+    width: 28%;     
+    min-width: 80px;
+    margin: 0 5px;  
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #81d4fa, #b3e5fc);
+}
+.num{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+
+#opçoes{
+    width: 90vw;
+    max-width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.botoes{
+    margin: 20px;
+    border: 1px solid black;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4fc3f7, #81d4fa);
+}
+.botoes:hover {
+    background: linear-gradient(to right, #81d4fa, #4fc3f7);
+}
+a{
+    text-decoration: none;
+    color: #0288d1;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    color: #555;
+}

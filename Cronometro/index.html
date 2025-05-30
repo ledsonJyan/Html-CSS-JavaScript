@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conômetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cronômetro</h1>
+    <div id="corpo">
+       <div id="base">
+            
+            <div id='tempo'>
+                <div id="horas">
+                    <p class="num" id='hora'>00</p>
+                </div>
+                
+                <div id="minutos">
+                    <p class="num" id='minuto'>00</p>
+                </div>
+                
+                <div id="segundos">
+                    <p class="num" id='segundo'>00</p>
+                </div>
+            </div>
+            
+            <div id='opçoes'>
+                <button class='botoes' onclick="reiniciar()">Reiniciar</button>
+                <button class='botoes' id='parar' onclick="parar()">Parar</button>
+                <button class='botoes' onclick="começar()">Começar</button>
+            </div>       
+                
+            
+        </div>
+    </div>
+    
+    <footer><p>Criado por <a href="https://www.instagram.com/jyancastrojl/" target="_blank"><strong>Lêdson Jyan</strong></a></p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
