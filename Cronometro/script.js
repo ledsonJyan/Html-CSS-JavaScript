@@ -19,16 +19,16 @@ function começar(){
         if(segundos < 10){
             segundos = segundos
         }
-        if (segundos === 59) {
+        if (segundos === 60) {
             segundos = 0;
             minutos ++;
            
         }
-        if(minutos === 59){
+        if(minutos === 60){
             minutos = 0;
             horas ++;
         }
-        if(horas === 23){
+        if(horas === 24){
             horas = 0;
         }
         atualizarDisplay();
