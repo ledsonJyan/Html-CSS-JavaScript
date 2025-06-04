@@ -17,6 +17,8 @@ main{
     position: relative;
 }
 #telefone{
+    max-width: 90vw;
+    max-height: 90vh;
     height: 627px;
     width: 311px;
     border-radius:57px;
@@ -25,6 +27,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-right: 15px;
 }
 #social{
     text-align: right;
@@ -39,14 +42,15 @@ main{
 }
 
 img{
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    width: 12vw;
+    height: auto;
     border-radius: 50px;
     margin-top: 20px;
     margin-right: 5px;
 
 }
 img:hover{
-    transform: translate(-50px -50px);
+    transform: translate(-50px, -50px);
     border: 2px solid white;
 }
