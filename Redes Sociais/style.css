@@ -17,7 +17,7 @@ main{
     position: relative;
 }
 #telefone{
-    max-width: 90vw;
+    max-width: 85vw;
     max-height: 90vh;
     height: 627px;
     width: 311px;
@@ -51,6 +51,5 @@ img{
 
 }
 img:hover{
-    transform: translate(-50px, -50px);
     border: 2px solid white;
 }
