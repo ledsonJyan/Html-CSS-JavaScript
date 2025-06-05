@@ -17,7 +17,7 @@ main{
     position: relative;
 }
 #telefone{
-    max-width: 75vw;
+    max-width: 85vw;
     max-height: 90vh;
     height: 627px;
     width: 311px;
@@ -27,7 +27,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-right: 15px;
+    padding-right: 60px;
 }
 #social{
     text-align: right;
