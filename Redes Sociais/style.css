@@ -32,6 +32,9 @@ main{
 #social{
     text-align: right;
 }
+#home{
+    margin-top: 90px;
+}
 #tela{
     position: relative;
     top: 80px;
