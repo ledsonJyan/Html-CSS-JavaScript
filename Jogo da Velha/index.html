@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+
+    <div id="base">
+        <div class="linha">
+            <div class="casa bottom right"><p></p></div>
+            <div class="casa bottom right"><p></p></div>
+            <div class="casa bottom"><p></p></div>
+        </div>
+        <div class="linha">
+            <div class="casa bottom right"><p></p></div>
+            <div class="casa bottom right"><p></p></div>
+            <div class="casa bottom"><p></p></div>
+        </div>
+        <div class="linha">
+            <div class="casa right"><p></p></div>
+            <div class="casa right"><p></p></div>
+            <div class="casa"><p></p></div>
+        </div>
+        
+    </div>
+
+    <div id="botoes">
+        <button id='x' onclick="selecionarSimbolo('X')">X</button>
+        <button id='o' onclick="selecionarSimbolo('O')">O</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
