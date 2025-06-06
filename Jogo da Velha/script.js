@@ -1,5 +1,28 @@
 let simboloAtual = 'X';
 
+function checarEmpate() {
+    const casas = Array.from(document.querySelectorAll('.casa p'));
+    return casas.every(p => p.textContent !== '');
+  }
+  
+  document.querySelectorAll('.casa').forEach(casa => {
+    casa.addEventListener('click', () => {
+      const p = casa.querySelector('p');
+      if (p.textContent === '') {
+        p.textContent = simboloAtual;
+        
+        const vencedor = checarVitoria();
+        if (vencedor) {
+          alert(`O jogador ${vencedor} venceu!`);
+          reiniciarJogo();
+        } else if (checarEmpate()) {
+          alert("Deu velha! Ninguém venceu.");
+          reiniciarJogo();
+        }
+      }
+    });
+  });
+
 function selecionarSimbolo(simbolo) {
   simboloAtual = simbolo;
 
