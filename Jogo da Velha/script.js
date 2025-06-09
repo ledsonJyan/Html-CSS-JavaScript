@@ -28,7 +28,7 @@ document.querySelectorAll('.casa').forEach(casa => {
 
       simboloAtual = simboloAtual === 'X' ? 'O' : 'X';
       mudarcor();
-      
+
       setTimeout(() => {
         const vencedor = checarVitoria();
         if (vencedor) {
