@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex007</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="" method="POST">
+        <p>
+            <label for="iestado">Estado:</label>
+            <select name="estado" id="iestado">
+                <option value="" selected>Escolha um Estado</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste"> 
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PB" >Paraiba</option>
+                </optgroup>
+            </select>
+        </p>
+        <label for="iprof">Profissão:</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option>Administração</option>
+            <option>Desenvolvedor</option>
+            <option>Professor</option>
+            <option>Contabilista</option>
+        </datalist>
+        <p>
+            <label for="imsg">Menssagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua Menssagem Aqui"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
