@@ -2,8 +2,23 @@ let simboloAtual = 'X';
 
 function selecionarSimbolo(simbolo) {
   simboloAtual = simbolo;
-}
 
+}
+function mudarcor(){
+  let elemento1 = document.getElementById('x');
+  let elemento2 = document.getElementById('o');
+  
+  if(simboloAtual==''){
+    elemento2.style.background = ''
+    elemento1.style.background = ''
+  }else if(simboloAtual=='X'){
+    elemento1.style.background = 'blue'
+    elemento2.style.background = ''
+  }else{
+    elemento2.style.background = 'blue'
+    elemento1.style.background = ''
+  }
+}
 
 document.querySelectorAll('.casa').forEach(casa => {
   casa.addEventListener('click', () => {
@@ -11,6 +26,8 @@ document.querySelectorAll('.casa').forEach(casa => {
     if (p.textContent === '') {
       p.textContent = simboloAtual;
 
+      simboloAtual = simboloAtual === 'X' ? 'O' : 'X';
+      mudarcor();
       
       setTimeout(() => {
         const vencedor = checarVitoria();
@@ -42,7 +59,7 @@ function checarVitoria() {
       return casas[a]; 
     }
   }
-
+  mudarcor();
   return null; 
 }
 
@@ -54,4 +71,9 @@ function checarEmpate() {
 
 function reiniciarJogo() {
   document.querySelectorAll('.casa p').forEach(p => p.textContent = '');
+  simboloAtual = 'X';
+  mudarcor();
 }
+window.onload = () => {
+  mudarcor(); 
+};
