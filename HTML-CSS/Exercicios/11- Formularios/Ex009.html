@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Ex009</title>
+ </head>
+ <body>
+     <h1>Testeando Formularios</h1>
+     <form action="" method="get">
+        <p>
+            <label for="inum">Numero:</label>
+            <input type="range" name="num" id="inum" min="0" max="100" value="0" oninput="resultado.innerHTML = Number(inum.value)">
+            <output id="resultado">0</output>
+        </p> 
+        <p>
+             <input type="submit" value="Enviar">
+         </p>
+     </form>
+ </body>
+ </html>
