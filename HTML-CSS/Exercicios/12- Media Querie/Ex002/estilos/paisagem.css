@@ -6,4 +6,5 @@ body{
     background: url(../Imagens/cev-landscape.jpg);
     background-position: bottom left ;
     background-repeat: no-repeat;
+    background-size: cover;
 }

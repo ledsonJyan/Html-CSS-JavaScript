@@ -12,11 +12,10 @@ html,body{
     height: 100%;
     background-color: #233eff;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 h1{
     color: white;
     text-shadow:  2px 2px 0px #1526a7;
     padding: 10px;
-    
+
 }
