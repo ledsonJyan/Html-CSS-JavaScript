@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Todas as Demais Midias */
+
+@media print { /*impressão*/
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 1px solid black;
+    }
+    main > h1{
+        color: black;
+        text-shadow: none;
+    }
+    main::after{
+        content: 'Essa Impresão foi Feita por Lêdson Jyan';
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #pc{display: none;}
+    #print{display: block;}
+    #tv{display: none;}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){ /*tablet*/
+    body{
+        background: url(../imagens/back-tablet.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: block;}
+    #pc{display: none;}
+    #print{display: none;}
+    #tv{display: none;}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*desktop*/
+    body{
+        background: url(../imagens/back-pc.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #pc{display: block;}
+    #print{display: none;}
+    #tv{display: none;}
+}
+@media screen and (min-width: 1200px){ /*telas grandes*/
+    body{
+        background: url(../imagens/back-tv.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #pc{display: none;}
+    #print{display: none;}
+    #tv{display: block;}
+}
