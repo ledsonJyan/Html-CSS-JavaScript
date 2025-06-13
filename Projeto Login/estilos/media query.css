@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body{
+        background-image: linear-gradient( to top, #49a09d, #5f2c82);
+    }
+    main{
+        display: flex;
+        
+    }
+    #login{
+        width: 80%;
+        flex-direction: row;
+    }
+    #imagem{
+        background: #5f2c82 url(../imagens/Entrada\ de\ predio.jpg);
+        background-size: cover;
+        background-position: bottom ;  
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+    
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: linear-gradient( to top, #49a09d, #5f2c82);
+    }
+    #login{
+        width: 950px;
+    }
+    #imagem{
+        float: left;
+        height: 100%;
+        width: 50%;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: linear-gradient( to top, #49a09d, #5f2c82);
+    }
+    #login{
+        width: 990px;
+    }
+    #imagem{
+        float: right;
+        height: 100%;
+        width: 50%;
+        background-position: center center;
+        background-size: cover;
+    }
+}
