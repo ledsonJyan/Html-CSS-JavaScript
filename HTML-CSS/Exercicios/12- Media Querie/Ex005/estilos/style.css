@@ -41,6 +41,7 @@ menu ul{
     color: white;
     padding: 10px;
     margin-bottom: 4px;
+    cursor: pointer;
 }
 menu ul li{
     background-color: gray;
@@ -48,6 +49,7 @@ menu ul li{
     padding: 10px;
     color: white;
     width: 70px;
+    cursor: pointer;
 }
 menu li:hover{
     background-color: lightgray;
