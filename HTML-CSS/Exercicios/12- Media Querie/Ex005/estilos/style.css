@@ -40,6 +40,7 @@ menu ul{
     text-align: center;
     color: white;
     padding: 10px;
+    margin-bottom: 4px;
 }
 menu ul li{
     background-color: gray;
