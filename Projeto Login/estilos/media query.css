@@ -5,48 +5,48 @@
     body{
         background-image: linear-gradient( to top, #49a09d, #5f2c82);
     }
-    main{
-        display: flex;
-        
-    }
     #login{
-        width: 80%;
+        max-width: 80%;
         flex-direction: row;
+        height: 300px;
     }
     #imagem{
         background: #5f2c82 url(../imagens/Entrada\ de\ predio.jpg);
         background-size: cover;
         background-position: bottom ;  
-        float: left;
         height: 100%;
-        width: 30%;
+        width: 50%;
     }
     
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1150px) {
     body{
         background-image: linear-gradient( to top, #49a09d, #5f2c82);
     }
     #login{
         width: 950px;
+        display: flex;
+        flex-direction: row;
     }
     #imagem{
-        float: left;
         height: 100%;
         width: 50%;
         background-position: center center;
         background-size: cover;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
     body{
         background-image: linear-gradient( to top, #49a09d, #5f2c82);
     }
     #login{
-        width: 990px;
+        width: 90%;
+        max-width: 990px;
+        display: flex;
+        flex-direction: row-reverse;
     }
     #imagem{
-        float: right;
+        
         height: 100%;
         width: 50%;
         background-position: center center;
