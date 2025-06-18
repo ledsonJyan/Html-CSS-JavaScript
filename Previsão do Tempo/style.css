@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;   
+}
+#base{
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.438);
+}
+h1{
+    margin-bottom: 50px;
+    text-shadow: px 1px 0px black;
+}
+#busca{
+    border: 1px solid black;
+    width: 300px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.438);
+}
+#lugar{
+    border: 1px solid black;
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+}
+#tempo{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.438);
+}
+#campo{
+    width: 350px;
+    height: 230px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.informacao{
+    border: 1px solid black;
+    width: 130px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.438);
+}
