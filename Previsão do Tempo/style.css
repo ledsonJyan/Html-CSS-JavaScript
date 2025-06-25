@@ -28,7 +28,7 @@ main{
 }
 h1{
     margin-bottom: 50px;
-    text-shadow: px 1px 0px black;
+    text-shadow: 1px 1px 0px black;
 }
 #busca{
     border: 1px solid black;
