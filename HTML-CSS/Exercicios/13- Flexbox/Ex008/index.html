@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex008</title>
+    <style>
+        #conteiner{
+            display: flex;
+            height: 700px;
+            border: 1px solid black;
+            align-items: flex-start;
+            flex-flow: row nowrap ;
+        }
+        .itens{
+            background-color: lightskyblue;
+            text-align: center;
+            border: 1px solid black;
+            flex-basis: 250px;
+        }
+        #i1{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        #i2{
+            flex-grow: 4;
+            flex-shrink: 0;
+        }
+        #i3{
+            flex-grow: 0;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div id="i1" class="itens">A</div>
+        <div id="i2" class="itens">B</div>
+        <div id="i3" class="itens">C</div>
+    </div>
+</body>
+</html>
